@@ -1,6 +1,6 @@
 export default function ResultModal({ result, tragetTime }) {
   return (
-    <dialog className="result-modal">
+    <dialog className="result-modal" open>
       <h2>You {result}</h2>
       <p>
         The target time was <strong>{tragetTime} seconds.</strong>
